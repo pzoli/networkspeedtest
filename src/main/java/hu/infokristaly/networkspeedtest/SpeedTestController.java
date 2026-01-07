@@ -17,7 +17,7 @@ import java.util.Random;
 
 @RestController
 @RequestMapping("/api/speedtest")
-@CrossOrigin(origins = "${app.cors.allowed-origins}") // Angular alapértelmezett port
+@CrossOrigin(origins = "${app.cors.allowed-origins}")
 public class SpeedTestController {
 
     @Value("${sampledata.path}")
